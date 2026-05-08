@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Webseite | Mohammed Rahioui</title>
+    <!-- Font Awesome für Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">
+            <i class="fas fa-code logo-icon"></i>
+            <span class="logo-text">Mohammed Rahioui</span>
+        </a>
+
+        <nav>
+            <div class="menu-toggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="content">
+            <h1>Mohammed Rahioui</h1>
+            <h2>Angehender <span class="typing-text"></span></h2>
+            <p>
+                Ich begeistiere mich leidenschaftlich für die Welt der Programmierung und moderne Softwarelösungen. 
+                Aktuell suche ich einen Ausbildungsplatz als <strong>Fachinformatiker für Anwendungsentwicklung</strong>, 
+                um meine theoretischen Kenntnisse in die Praxis umzusetzen und innovative Anwendungen in einem professionellen Team zu entwickeln.
+            </p>
+            
+            <div class="cta-buttons">
+                <a href="#projects" class="btn btn-primary">
+                    <i class="fas fa-code"></i> Meine Projekte
+                </a>
+                <a href="#contact" class="btn btn-secondary">
+                    <i class="fas fa-paper-plane"></i> Kontakt aufnehmen
+                </a>
+            </div>
+
+            <div class="social-icons">
+                <a href="https://github.com/MohammedRahioui" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/mohammed-rahioui-709622244" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="Lebenslauf-1.pdf" target="_blank" title="Lebenslauf ansehen (PDF)">
+                    <i class="fas fa-user-tie"></i>
+                </a>
+                <a href="Zeugnisse+Online-Kurs.pdf" target="_blank" title="Zeugnisse ansehen (PDF)">
+                    <i class="fas fa-graduation-cap"></i>
+                </a>
+            </div>
+        </div>
+
+        <div class="profile-container">
+            <div class="border-outer"></div>
+            <div class="border-middle"></div>
+            <div class="border-inner"></div>
+            <div class="pulse-ring"></div>
+            <img src="profile.png" alt="Mohammed Rahioui" class="profile-img">
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="about-container">
+            <h2 class="section-title">Über Mich</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Wer bin ich?</h3>
+                    <p>
+                        Ich bin Mohammed Rahioui, ein leidenschaftlicher Entwickler und Informatik-Enthusiast aus Marokko. 
+                        Mit einer starken Grundlage in modernen Webtechnologien und Programmiersprachen, arbeite ich ständig 
+                        daran, meine Fähigkeiten zu verbessern und neue Technologien zu erlernen.
+                    </p>
+                    
+                    <h3>Mein Weg</h3>
+                    <p>
+                        Meine Reise in der IT begann mit einer großen Neugier auf die Funktionsweise von Computern und Programmen. 
+                        Durch intensive Selbststudien, Online-Kurse und praktische Projekte habe ich mir umfassendes Wissen in 
+                        Frontend-Entwicklung, JavaScript und modernen Web-Frameworks angeeignet.
+                    </p>
+                    
+                    <h3>Meine Motivation</h3>
+                    <p>
+                        Ich suche nach einer Ausbildungsstelle als Fachinformatiker für Anwendungsentwicklung, um:
+                    </p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-check"></i> Meine theoretischen Kenntnisse in der Praxis anzuwenden</li>
+                        <li><i class="fas fa-check"></i> Von erfahrenen Profis zu lernen und zu wachsen</li>
+                        <li><i class="fas fa-check"></i> Innovative Lösungen zu entwickeln, die echte Probleme lösen</li>
+                        <li><i class="fas fa-check"></i> Teil eines dynamischen Teams zu sein</li>
+                    </ul>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Abgeschlossene Projekte</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">1+</div>
+                        <div class="stat-label">Jahre Erfahrung</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Engagement</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Programmiersprachen</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="skills" id="skills">
+        <h2 class="section-title">Meine Fähigkeiten</h2>
+        
+        <div class="skills-container">
+            <!-- Frontend Skills -->
+            <div class="skill-category">
+                <h3><i class="fas fa-palette"></i> Frontend Development</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">HTML5</span>
+                            <span class="skill-percentage">95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 95%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">CSS3 & SCSS</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">JavaScript (ES6+)</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">React.js</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Responsive Design</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Backend Skills -->
+            <div class="skill-category">
+                <h3><i class="fas fa-server"></i> Backend & Datenbanken</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percentage">70%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 70%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">SQL & MySQL</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">MongoDB</span>
+                            <span class="skill-percentage">65%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 65%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">REST APIs</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Others -->
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Tools & Andere</h3>
+                <div class="skill-list">
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Git & GitHub</span>
+                            <span class="skill-percentage">85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 85%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">VS Code</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 90%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Figma Design</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Docker</span>
+                            <span class="skill-percentage">60%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 60%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+                        <div class="skill-header">
+                            <span class="skill-name">Linux/Terminal</span>
+                            <span class="skill-percentage">75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" style="width: 75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Zusätzliche Skills als Badges -->
+        <div class="additional-skills">
+            <h3>Weitere Kompetenzen</h3>
+            <div class="skill-badges">
+                <span class="badge">Problemlösen</span>
+                <span class="badge">Teamfähigkeit</span>
+                <span class="badge">Selbstständiges Lernen</span>
+                <span class="badge">Kommunikation</span>
+                <span class="badge">Zeitmanagement</span>
+                <span class="badge">Web Performance</span>
+                <span class="badge">SEO Grundlagen</span>
+                <span class="badge">Debugging</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">Meine Projekte</h2>
+        
+        <div class="project-grid">
+            <!-- Projekt 1: Portfolio -->
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Webseite</h3>
+                    <p>Eine moderne, responsive Webseite erstellt mit HTML, CSS und JavaScript zur Vorstellung meiner Person.</p>
+                    <div class="tech-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link">Source Code <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Projekt 2: To-Do Liste -->
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Smart To-Do App</h3>
+                    <p>Eine Anwendung zur Aufgabenverwaltung mit LocalStorage-Anbindung, um Daten im Browser zu speichern.</p>
+                    <div class="tech-tags">
+                        <span>JavaScript</span>
+                        <span>DOM</span>
+                        <span>LocalStorage</span>
+                    </div>
+                    <a href="#" class="project-link">Source Code <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Projekt 3: Wetter App -->
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-cloud-sun"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Wetter-Dashboard</h3>
+                    <p>Abrufen von Echtzeit-Wetterdaten über eine REST-API (OpenWeatherMap) basierend auf dem Standort.</p>
+                    <div class="tech-tags">
+                        <span>API</span>
+                        <span>JSON</span>
+                        <span>Async/Await</span>
+                    </div>
+                    <a href="#" class="project-link">Source Code <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+
+            <!-- Projekt 4: IT-Quiz Spiel -->
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="project-info">
+                    <h3>IT-Quiz Spiel</h3>
+                    <p>Ein interaktives Quiz zu Informatik-Grundlagen, um logisches Denken und Zustandsverwaltung zu üben.</p>
+                    <div class="tech-tags">
+                        <span>Logic</span>
+                        <span>Array-Methods</span>
+                        <span>CSS-Anim</span>
+                    </div>
+                    <a href="#" class="project-link">Source Code <i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2 class="section-title">Kontakt aufnehmen</h2>
+        
+        <div class="contact-wrapper">
+            <!-- Linke Seite: Persönliche Daten -->
+            <div class="contact-info">
+                <h3>Persönliche Details</h3>
+                <p>Ich bin motiviert, engagiert und bereit, meine Karriere in der IT zu starten.</p>
+                
+                <div class="info-list">
+                    <div class="info-item">
+                        <i class="fas fa-user"></i>
+                        <div>
+                            <span>Vollständiger Name</span>
+                            <p>Mohammed Rahioui</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <span>Telefon</span>
+                            <p>+21270584665</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-globe-africa"></i>
+                        <div>
+                            <span>Nationalität</span>
+                            <p>Marokkanisch</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <span>E-Mail</span>
+                            <p>mohammedrahioui01@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rechte Seite: Kontaktformular -->
+            <div class="contact-form">
+                <form action="#" method="POST">
+                    <div class="input-group">
+                        <input type="text" placeholder="Ihr Name" required>
+                        <input type="email" placeholder="Ihre E-Mail" required>
+                    </div>
+                    <input type="text" placeholder="Betreff" required>
+                    <textarea placeholder="Ihre Nachricht an mich..." rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i> Nachricht senden
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Mohammed Rahioui. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
